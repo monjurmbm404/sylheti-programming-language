@@ -94,12 +94,12 @@ Here is the complete mapping of SPL keywords to standard JavaScript/Programming 
 ### 🔏 Logical Operators
 
 | Sylheti Keyword | JS/Standard Equivalent | Meaning / Usage |
-| --------------- | ---------------------- | --------------- | --- | ---------- |
-| `আর`            | `&&`                   | Logical AND     |
-| `নয়লে`         | `                      |                 | `   | Logical OR |
-| `না`            | `!`                    | Logical NOT     |
-| `সমান`          | `==`                   | Loose Equality  |
-| `অইছে`          | `===`                  | Strict Equality |
+| :--- | :--- | :--- |
+| `আর` | `&&` | Logical AND |
+| `নয়লে` | `||` | Logical OR |
+| `না` | `!` | Logical NOT |
+| `সমান` | `==` | Loose Equality |
+| `অইছে` | `===` | Strict Equality |
 
 ### ⚠️ Error Handling & Async
 
