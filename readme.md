@@ -991,11 +991,11 @@ Conditions can be combined using logical operators.
 
 Available SPL logical keywords:
 
-| SPL     | Equivalent |
-| ------- | ---------- | --- | --- |
-| `আর`    | `&&`       |
-| `নয়লে` | `          |     | `   |
-| `না`    | `!`        |
+| SPL | Equivalent |
+| :--- | :--- |
+| `আর` | `&&` |
+| `নয়লে` | `\|\|` |
+| `না` | `!` |
 
 ---
 

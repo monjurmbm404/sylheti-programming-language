@@ -18,16 +18,20 @@ function compileAndRun(sylhetiCode) {
     // Instead of raw matching, we ensure keywords are standalone words
     sortedKeywords.forEach(item => {
         const cleanSource = item.regex.source || item.regex.toString().replace(/^\/|\/g$/g, '');
-        
+
         // This regex ensures the Bengali keyword is NOT surrounded by other Bengali letters or underscores
         const unicodeBoundaryRegex = new RegExp(`(?<![\\u0980-\\u09FF_])${cleanSource}(?![\\u0980-\\u09FF_])`, 'g');
-        
+
         processedCode = processedCode.replace(unicodeBoundaryRegex, item.replacement);
     });
 
     // 4. Wrap console.log arguments with parentheses automatically
-    // Turns: console.log "text"  ->  console.log("text")
-    processedCode = processedCode.replace(/console\.log\s+(".*?"|'.*?'|`.*?`|\w+)/g, 'console.log($1)');
+    // Turns: console.log পরীক্ষা(50)  ->  console.log(পরীক্ষা(50));
+    // (uses Unicode-safe matching to end of line, since \w doesn't match Bengali letters)
+    processedCode = processedCode.replace(
+        /console\.log[^\S\r\n]+([^\r\n;]+)/g,
+        (_, value) => `console.log(${value.trim()});`
+    );
 
     // 5. Try executing the final JavaScript code
     try {
