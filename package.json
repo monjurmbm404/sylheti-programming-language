@@ -1,6 +1,6 @@
 {
   "name": "sylheti-programming-language",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Sylheti Programming Language (SPL) Compiler/Interpreter",
   "main": "src/index.js",
   "bin": {
