@@ -1,10 +1,18 @@
 {
   "name": "sylheti-programming-language",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Sylheti Programming Language (SPL) Compiler/Interpreter",
   "main": "src/index.js",
   "bin": {
     "spl": "./bin/spl.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monjurmbm404/sylheti-programming-language.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monjurmbm404/sylheti-programming-language/issues"
+  },
+  "homepage": "https://github.com/monjurmbm404/sylheti-programming-language#readme",
   "dependencies": {}
 }

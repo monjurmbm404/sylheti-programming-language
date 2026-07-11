@@ -1,8 +1,8 @@
 # 🌿 Sylheti Programming Language (SPL)
 
-**Sylheti Programming Language (SPL)** is a fun, beginner-friendly, transpiled programming language that allows developers to write code using the **Sylheti dialect (সিলেটি ভাষা)**. Built on top of **Node.js**, SPL translates Sylheti keywords into JavaScript and executes them seamlessly.
+**Sylheti Programming Language (SPL)** is a fun, beginner-friendly, transpiled programming language that allows developers to write code using the **Sylheti language (সিলেটি ভাষা)**. Built on top of **Node.js**, SPL translates Sylheti keywords into JavaScript and executes them seamlessly.
 
-Whether you're learning programming, exploring programming language design, or simply want to code in your own native dialect, SPL offers a unique and enjoyable coding experience.
+Whether you're learning programming, exploring programming language design, or simply want to code in your own native language, SPL offers a unique and enjoyable coding experience.
 
 ## ❓ Why SPL?
 
