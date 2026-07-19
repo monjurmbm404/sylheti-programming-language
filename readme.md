@@ -991,11 +991,11 @@ Conditions can be combined using logical operators.
 
 Available SPL logical keywords:
 
-| SPL | Equivalent |
-| :--- | :--- |
-| `আর` | `&&` |
-| `নয়লে` | `\|\|` |
-| `না` | `!` |
+| SPL     | Equivalent |
+| :------ | :--------- |
+| `আর`    | `&&`       |
+| `নয়লে` | `\|\|`     |
+| `না`    | `!`        |
 
 ---
 
@@ -4595,16 +4595,19 @@ Let's build a programming language community together.
 
 # 14. 📜 License
 
-Sylheti Programming Language (SPL) is released under the **MIT License**.
+Sylheti Programming Language (SPL) is released under the MIT License.
 
-This means you are free to:
+You are free to:
 
-- ✅ Use the project
-- ✅ Modify the source code
-- ✅ Share improvements
-- ✅ Use it for personal or commercial projects
+✅ Use SPL  
+✅ Modify the source code  
+✅ Create derivatives  
+✅ Share improvements  
+✅ Use SPL for personal or commercial projects
 
 with proper attribution.
+
+See the [LICENSE](LICENSE) file for full details.
 
 ---
 
